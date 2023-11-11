@@ -1,5 +1,5 @@
-﻿
-using BookCafe.Service;
+﻿using BookCafe.Service;
 
-AllBookInfo allBookInfo = new AllBookInfo();
-allBookInfo.SearchBook("shum bola");
+Menu menu = new Menu();
+menu.ClearAllInfo();
+menu.GetAllInfo();
